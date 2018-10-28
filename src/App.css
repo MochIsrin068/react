@@ -1,32 +1,378 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.download {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+.cont{
+  margin-top: -18px;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+.cont0{
+  margin-top: 0;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+.contrainer{
+  width: 65%;
+  text-align: justify;
+  background-color: #f0f0f0;
+}
+.contrainer2{
+  width: 65%;
+  text-align: justify;
+  background-color: #ffffff;
+}
+.cont2{
+  margin-top: -10px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+.cont3{
+  margin-top: -10px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-bottom: 5px solid #888;
+}
+.cont4{
+  background-color: #888;
+  width: 100%;
+  height: 5px;
+  border-bottom: 1px solid #888;
+}
+.col-sm{
+  width: 100%;
+  background-color: aquamarine;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(233, 233, 233);
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex-container0 {
+  display: flex;
+  justify-content: left;
+  background-color: #f0f0f0;
+}
+
+.flex-container0 > .glj {
+  background-color: #ffffff;
+  width: 420px;
+  margin: 10px;
+  text-align: left;
+  line-height: 100px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.flex-container01 {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.flex-container01 > .glj {
+  background-color: #ffffff;
+  width: 500px;
+  margin: 10px;
+  text-align: left;
+  line-height: 100px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.glj{
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+.glj > .gc1{
+  
+}
+.glj > .lc1{
+  background-color: #ffffff;
+  width: 30%;
+  margin: 10px;
+  margin-left: 2px;
+  text-align: left;
+  line-height: 100px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.lc1 h5{
+  color: maroon;
+}
+.lc1 h4{
+  color: rgb(175, 175, 175);
+}
+.gc1 img{
+  width: 86%;
+}
+.lc1{
+  background-color: #ae2b26;
+  width: 30%;
+}
+
+
+img.gc{
+  width: 100%;
+}
+img.gc:hover{
+  filter: Opacity(50%);
+}
+
+.flex-container3 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.soon {
+  display: flex;
+  justify-content: left;
+  background-color: #f0f0f0;
+}
+.soon > .tx {
+  background-color: #f0f0f0;
+  width: 500px;
+  margin: 10px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 35px;
+  border-radius: 5px;
+}
+.tx h1{
+  margin-top: 20px;
+  font-size: 23px;
+}
+.see {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.see > .text {
+  background-color: #ffffff;
+  width: 500px;
+  margin: 10px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 35px;
+  border-radius: 5px;
+}
+.text h1{
+  margin-top: 15px;
+  font-size: 23px;
+}
+.see > .menu1 {
+  background-color: #ffffff;
+  width: 500px;
+  margin: 20px;
+  text-align: right;
+  line-height: 20px;
+  font-size: 30px;
+  border-radius: 3px;
+}
+.menu1 a{
+  font-size: 15px;
+  text-decoration: none;
+  border: 2px solid #000;
+  padding: 9px;
+  padding-right: 12px; 
+  padding-left: 12px; 
+  border-radius: 3px;
+  color: #000;
+}
+
+.menu1 a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.flex-container2 > div {
+  background-color: #ffffff;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+  border: 2px solid #f1f1f1;
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.new > div {
+  background-color: #ffffff;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  border: 2px solid #f1f1f1;
+}
+img.gkomik{
+  width: 100%;
+  
+}
+img.gkomik1{
+  width: 100%;
+  margin-top: -58px;
+  
+}
+.ket{
+  text-align: left;
+  padding: 10px;
+  padding-bottom: 0;
+}
+.ket h5{
+  color: #f9b044;
+}
+.ket a{
+  border: 2px solid #df6e22;
+  color: #df6e22;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: -100px;
+}
+.flex-container3 {
+  display: flex;
+  justify-content: left;
+  background-color: DodgerBlue;
+}
+
+.flex-container3 > div {
+  background-color: #f1f1f1;
+  width: 420px;
+  margin: 10px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.about {
+  display: flex;
+  justify-content: left;
+  background-color: rgb(255, 255, 255);
+}
+
+.about > .about1 {
+  width: 100%;
+  margin: 10px;
+  text-align: left;
+  line-height: 200px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.about .about1 h4{
+  color: rgb(146, 146, 146);
+}
+
+.abouth {
+  display: flex;
+  justify-content: left;
+  background-color: rgb(255, 255, 255);
+}
+.abouth > .about2 {
+  width: 100%;
+  text-align: left;
+  line-height: 200px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 1px solid yellow;
+}
+.about2 p{
+  color: #888;
+  font-size: 15px;
+  border: 1px solid #f8a832;
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+}
+.about2 p a{
+  color: #ae2b26;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  background-color: #ae2b26;
+  height: 70px;
+  text-align: center;
+}
+
+.download h2{
+  margin-top: 20px;
+  font-size: 23px;
+  color: #ffffff;
+}
+.download img.appstore{
+  margin-top: 15px;
+  width: 35%;
+}
+.download img.playstore{
+  width: 35%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.download img.apps{
+  width: 60%;
+}
+.download > .d1 {
+  width: 370px;
+  text-align: center;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 110px;
+}
+
+.download > .d2 {
+  width: 400px;
+  text-align: center;
+  height: 40px;
+  font-size: 20px;
+  margin-left: -50px;
+}
+
+.download > .d3 {
+  width: 400px;
+  text-align: center;
+  height: 40px;
+  margin-left: -100px;
+  font-size: 20px;
+}
+
+.text {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
 }
